@@ -18,5 +18,11 @@ https://drive.google.com/drive/folders/1BBKZtMBARazRFZl_mkZ9NfGrD21idhtH
 Enlace a la primera Fase del proyecto:
 https://drive.google.com/drive/folders/1db5FhsAhg7DVF4dgzAAf-t0GDzynSRFL
 
+Enlace a la segunda Fase del proyecto:
+https://drive.google.com/drive/folders/1mD_gnyOag9LnX9taxMZrNggl9x2_Cd4r
+
+Enlace a la segunda Fase del proyecto:
+https://drive.google.com/drive/folders/1H9sBWrk4P-_onW_4CNGZL3hFvvWkgNfG?usp=drive_link
+
 Enlace de avances de integrantes en Notion:
 https://www.notion.so/Porcentajes-92876b6a9a174d28a59b0a104d5c92df?pvs=4
