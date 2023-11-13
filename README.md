@@ -10,7 +10,7 @@ Está página web se realiza con el objetivo de brindar mejoras a la presentaci�
 
 
 Enlace a los mock ups:
-https://drive.google.com/drive/folders/1dynvsIHnMzdVyIIxIJbik4rzWy2yA7cW
+https://drive.google.com/drive/folders/1cUc2PGoQAbnrJ-HtdlzCl2wqpTu-Jt2R?usp=drive_link
 
 Enlace a las capturas de pantalla:
 https://drive.google.com/drive/folders/1BBKZtMBARazRFZl_mkZ9NfGrD21idhtH
