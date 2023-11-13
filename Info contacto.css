@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+
+body{
+  text-align: center;
+  background-color: #422152;
+}
+
+.content{
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 10px;
+  margin: 1px 1px;
+  border-radius: 20%;
+}
+h1{
+  text-align: center;
+  font-family: 'pixelify sans';
+  color: white;
+  font-size: 40px;
+  margin: 10px;
+  margin-top: 100px;
+}
+h2{
+  text-align: center;
+  font-family: Montserrat;
+  color: black;
+  font-size: 25px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+p{
+  color: black;
+  font-size: 15px;
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 1px;
+  margin: 10px;
+}
+.fa-facebook {
+  background: #FDCB2A;
+  color: white;
+  margin: 10px;
+  margin-top: 30px;
+}
+.fa-instagram {
+  background: #FDCB2A;
+  color: white;
+}

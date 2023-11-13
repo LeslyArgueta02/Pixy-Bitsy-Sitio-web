@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body{
+	text-align: center;
+	font-family: "Montserrat";
+}
+
+.head{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 63px;
+	background: black;
+	position: fixed;
+	width: 100%;
+	z-index: 100%;
+}
+
+.navbar{
+	display: flex;
+	margin-right: 10px;
+}
+
+
+
+.navbar a {
+	display: block;
+	padding: 23px 20px;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+.navbar a:hover {
+	background: #3f3f3f;	
+}
+
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header{
+	height: 60vh !important;
+	background:url(../img/fondo1.jpg) no-repeat;
+	background-size: cover;
+}
+
+.title{
+	margin-bottom: 40px;
+	font-size: 60px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: white;
+}
+
+p{
+	margin-bottom: 40px;
+	font-size: 18px;
+	color: white;
+	padding: 0 100px;	
+}
+
+.btn{
+	display: inline-block;
+	margin-top: 15px;
+	padding: 10px 40px;
+	border: 10px;
+	color: #fff;
+	text-decoration: none;
+	background:#5A1568;
+}
+
+.btn:hover{
+	background: #DD934A;
+	color: white;
+}
+
+.btn-home{
+	display: flex;
+}
+
+.btn-home a{
+	margin: 0 10px;
+}
+
+.content{
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.sau{
+	padding: 100px;
+	background: #5A1568;
+}
+
+.box-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.box-container .box{
+	height: 13rem;
+	width: 17rem;
+	background: #101010;
+	text-align: center;
+	border-radius: 1rem;
+	margin: 2rem;
+}
+
+
+.box-container .box i {
+	height: 3rem;
+	width: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	border-radius: 50%;
+	color: white;
+	background: #FCCC2C;
+	font-size: 2rem;
+	margin: 1rem;
+}
+
+.box-container .box h3{
+	font-size: 20px;
+	color: #FCCC2C;
+}
+
+.box-container .box p {
+	padding: 0 10px;
+	font-size: 16px;
+}
+
+.about {
+	background: #FCCC2C;
+}
+
+header{
+	background: black;
+	padding: 1rem 9%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1000;
+	box-shadow: 0 .5rem 1rem rgba(0, 0, 0,.1);
+}
+
+header.logo{
+
+	display: flex;
+	align-items: center;
+}
+
+header .logo img{
+	height: 50px;
+	margin-right: 10px;
+}
+
+header .navbar ul{
+	list-style: none;
+}
+
+header .navbar ul li{
+	position: relative;
+	float: left;
+}
+
+header .navbar ul li a{
+	font-size: 18px;
+	padding: 20px;
+	color: #ffffff;
+	display: block;
+}
+
+header .navbar ul li a:hover{
+	background-color: #5A1568;
+}
+
+header .navbar ul li ul{
+	position: absolute;
+	left: 0;
+	width: 200px;
+	background-color: black;
+	display: none;
+}
+
+header .navbar ul li ul li{
+	width: 100%;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header .navbar ul li ul li ul{
+	left: 200px;
+	top: 0;
+}
+
+header .navbar ul li:focus-within> ul, header .navbar ul li:hover > ul{
+	display: initial;
+}
+
+footer{
+	background: black;
+	padding: 1rem;
+	color: white;
+	font-family: "Montserrat";
+	font-size: 10px;
+}
+
+@media (max-width: 768px) {
+	.title{
+		margin-bottom: 0;
+		font-size: 40px;
+	}
+	.sau{
+		height: 120vh;
+	}
+	.navbar{
+		display: none;
+	}
+
+}
+
+header .logo{
+	font-family: 'Pixelify Sans', sans-serif;
+	color: #FCCC2C;
+	font-size: 1.75em;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+header ul{
+	position: relative;
+}
+
+header ul li{
+	position: relative;
+	list-style: none;
+	float: left;
+}
+
+header ul li a{
+	color: #fff;
+	font-size: 1.1em;
+	padding: 20px 25px;
+	text-decoration: none;
+	display: flex;
+	text-transform: uppercase;
+	justify-content: space-between;
+	transition: 0.3s ease;
+}
+
+header ul li a:hover{
+	background: #5A1568;
+}
+
+header ul li ul{
+	position: absolute;
+	left: 0;
+	width: 200px;
+	background:#DD934A;
+	display: none;
+}
+
+header ul li:hover ul{
+	display: block;
+}
+
+header ul li ul li{
+	position: relative;
+	width: 100%;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+header ul li ul li ul{
+	top: 0;
+	left: 200px;
+}
+
+/**RESPONSIVE**/
+@media(max-width: 900px){
+	header{
+		padding: 10px 20px;
+	}
+
+	header nav{
+		position: absolute;
+		width: 100%;
+		top:66px;
+		left: 0;
+		background: #360640;
+		display: none;
+	}
+
+	header.active nav{
+		display: initial;
+	}
+
+	header nav ul li{
+		width: 100%;
+	}
+
+	header nav ul li ul{
+		position: relative;
+		width: 100%;
+		left: 0;
+	}
+
+	header ul li ul li ul{
+		top: 0;
+		left: 0;
+
+	}
+
+	header nav ul li:hover ul li{
+		background: #DD934A;
+		transition: 0.3s ease;
+	}
+
+	.menuToggle{
+		position: relative;
+		width: 40px;
+		height: 50px;
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.menuToggle::before{
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 3px;
+		background: #fff;
+		transform: translateY(-12px);
+		box-shadow: 0 12px #fff ;
+		transition: 0.3s ease;
+	}
+
+	.menuToggle::after{
+		content: '';
+		position: absolute;
+		width: 100%;
+		height: 3px;
+		background: #fff;
+		transform: translateY(12px);
+		transition: 0.3s ease;
+	}
+
+	header.active .menuToggle::before{
+		transform: rotate(45deg);
+		box-shadow: 0 0 #fff ;
+
+	}
+
+	header.active .menuToggle::after{
+		transform: rotate(315deg);
+
+	}
+
+}
+
+

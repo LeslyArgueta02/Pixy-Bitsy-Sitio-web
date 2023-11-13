@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Contacto</title>
+	<link rel="stylesheet" href="css/contacto.css">
+	<link rel="stylesheet" type="text/css" href="css/navbar.css">
+	<link rel="icon" type="image/png" href="img/logo.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+</head>
+
+<body>
+	<!--SECCION HEADER INICIA-->
+	<header>
+		<a href="index-pixy-bitsy.html" class="logo">Pixy Bitsy</a>
+		<div class="menuToggle"></div>
+		<nav>
+			<ul>
+				<li><a href="index-pixy-bitsy.html">Inicio</a></li>
+				<li><a href="Pixi Bitsy-Sobre nosotros.html">Sobre Nosotros<b>▼</b></a>
+					<ul>
+						<li><a href="Pixi Bitsy-Sobre nosotros.html">¿Quiénes Somos?<b>+</b></a>
+							<ul>
+								<li><a href="">Misión</a></li>
+								<li><a href="">Visión</a></li>
+								<li><a href="">Valores</a></li>
+								<li><a href="">Historia</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="PixyBitsy-Productos.html">Productos<b>▼</b></a>
+					<ul>
+						<li><a href="PixyBitsy-Productos.html">Categorías <b>+</b></a>
+							<ul>
+							<li><a>Llaveros</a></li>
+							<li><a>Marcapáginas</a></li>
+							<li><a>Cuadros</a></li>
+							<li><a>Portavelas</a></li>
+							<li><a>Pulseras</a></li>
+							<li><a>Aretes</a></li>
+							<li><a>Collares</a></li>
+							<li><a>Alcancías</a></li>
+							<li><a>Portavasos</a></li>
+							<li><a>Clips</a></li>
+							<li><a>Pines</a></li>
+							<li><a>Organizadores de audífonos</a></li>
+							<li><a>Tarjeta de ocasión especial</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="form-pixy-bitsy.html">Contacto<b>▼</b></a>
+					<ul>
+						<li><a href="form-pixy-bitsy.html">Formulario de contacto</a> </li>
+						<li><a href="contact-pixy-bitsy.html">Contáctanos</a> </li>
+					</ul>
+				<li id="cart-btn">
+                    <a id="toggle-cart-btn" onclick="toggleCart()">Carrito de Compra<b>▼</b></a>
+                    <div id="cart-container">
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        let menuToggle = document.querySelector('.menuToggle');
+        let header = document.querySelector('header');
+        menuToggle.onclick = function(){
+            header.classList.toggle('active');
+        };
+    </script>
+
+	<!--SECCION HEADER TERMINA-->
+
+	<div class="content">
+		<h1>INFORMACIÓN DE CONTACTO</h1>
+		<h2>Cuéntanos como podemos ayudarte</h2>
+		<form action="/my-handling-form-page" method="post">
+			<ul>
+				<li>
+					<label>Nombre</label>
+					<input type="text" name="" id="" required><span class="barra"></span>
+				</li>
+				<li>
+					<label>Correo electrónico</label>
+					<input type="email" name="" id="" required><span class="barra"></span>
+				</li>
+				<li>
+					<label>Edad</label>
+					<input type="number" namer="" id="" required><span class="barra"></span>
+				</li>
+				<li>
+					<label>Mensaje</label>
+					<textarea name="" id="" rows="3"></textarea><span class="barra"></span>
+				</li>
+				<li class="button">
+					<button type="submit">Contactar</button>
+				</li>
+			</ul>
+		</form>
+	</div>
+</body>
+
+<script src="js/navbar.js"></script>
+
+</html>

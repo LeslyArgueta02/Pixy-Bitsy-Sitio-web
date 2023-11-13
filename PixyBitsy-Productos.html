@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style-products.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <title>Productos de Pixy Bitsy</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+</head>
+
+<body>
+    <!--SECCION HEADER INICIA-->
+    <header>
+        <a href="index-pixy-bitsy.html" class="logo">Pixy Bitsy</a>
+        <div class="menuToggle"></div>
+        <nav>
+            <ul>
+                <li><a href="index-pixy-bitsy.html">Inicio</a></li>
+                <li><a href="Pixi Bitsy-Sobre nosotros.html">Sobre Nosotros<b>▼</b></a>
+                    <ul>
+                        <li><a href="Pixi Bitsy-Sobre nosotros.html">¿Quiénes Somos?<b>+</b></a>
+                            <ul>
+                                <li><a href="">Misión</a></li>
+                                <li><a href="">Visión</a></li>
+                                <li><a href="">Valores</a></li>
+                                <li><a href="">Historia</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="PixyBitsy-Productos.html">Productos<b>▼</b></a>
+                    <ul>
+                        <li><a href="PixyBitsy-Productos.html">Categorías <b>+</b></a>
+                            <ul>
+                            <li><a>Llaveros</a></li>
+                            <li><a>Marcapáginas</a></li>
+                            <li><a>Cuadros</a></li>
+                            <li><a>Portavelas</a></li>
+                            <li><a>Pulseras</a></li>
+                            <li><a>Aretes</a></li>
+                            <li><a>Collares</a></li>
+                            <li><a>Alcancías</a></li>
+                            <li><a>Portavasos</a></li>
+                            <li><a>Clips</a></li>
+                            <li><a>Pines</a></li>
+                            <li><a>Organizadores de audífonos</a></li>
+                            <li><a>Tarjeta de ocasión especial</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="form-pixy-bitsy.html">Contacto<b>▼</b></a>
+                    <ul>
+                        <li><a href="form-pixy-bitsy.html">Formulario de contacto</a> </li>
+                        <li><a href="contact-pixy-bitsy.html">Contáctanos</a> </li>
+                    </ul>
+                </li>
+                <li id="cart-btn">
+                    <a id="toggle-cart-btn" onclick="toggleCart()">Carrito de Compra<b>▼</b></a>
+                    <div id="cart-container">
+                        <table id="cart">
+                            <tr>
+                                <th>Producto</th>
+                                <th>Precio</th>
+                                <th>Cantidad</th>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        let menuToggle = document.querySelector('.menuToggle');
+        let header = document.querySelector('header');
+        menuToggle.onclick = function(){
+            header.classList.toggle('active');
+        };
+    </script>
+    <!--SECCION HEADER TERMINA-->
+
+    <div class="content banner">
+        <h2 class="title">Productos Pixy Bitsy</h2>
+    </div>
+
+    <div class="content">
+
+        <div class="box">
+            <img src="img/llaveros.jpeg" alt="" srcset="">
+            <h2>Llaveros</h2>
+            <h3>$4.00</h3>
+            <p>Son personalizables y hechas con hamabeads y accesorios de elección.</p>
+            <br>
+            <button class="my-button" onclick="addToCart('Llaveros', 4)"> Agregar al carrito </button>
+            </br>
+        </div>
+
+        <div class="box">
+            <img src="img/pulseras.jpeg" alt="" srcset="">
+            <h2>Pulseras</h2>
+            <h3>$2.50</h3>
+            <p>Son personalizables y hechas con hamabeads y accesorios de elección.</p>
+            <br>
+            <button class="my-button" onclick="addToCart('Pulseras', 2.5)"> Agregar al carrito </button>
+            </br>
+        </div>
+
+        <div class="box">
+            <img src="img/cuadros.jpeg" alt="">
+            <h2>Cuadros</h2>
+            <h3>$5.00</h3>
+            <p>Cuadros personalizables con un fondo de imagen y  figuras de hamabeads enmarcadas.</p>
+            <br>
+            <button class="my-button" onclick="addToCart('Cuadros', 5)"> Agregar al carrito </button>
+            </br>
+        </div>
+
+        <div class="box">
+            <img src="img/aretes.jpeg" alt="">
+            <h2>Aretes</h2>
+            <h3>$3.00</h3>
+            <p>Aretes personalizables, de distintos tamaños y colores, hechos de hamabeads.
+            </p>
+            <br>
+            <button class="my-button" onclick="addToCart('Aretes', 3)"> Agregar al carrito </button>
+            </br>
+        </div>
+
+        <div class="box">
+            <img src="img/collares.jpeg" alt="">
+            <h2>Collares</h2>
+            <h3>$3.00</h3>
+            <p>Collar hecho de hamabeads, personalizables y variedad de diseños.</p>
+            <br>
+            <button class="my-button" onclick="addToCart('Collares', 3)"> Agregar al carrito </button>
+            </br>
+        </div>
+
+
+        <div class="box">
+            <img src="img/audifonos.jpg" alt="" srcset="">
+            <h2>Organizadores de audífonos</h2>
+            <h3>$4.00</h3>
+            <p>Personalizables organizadores con diferentes temáticas.</p>
+            <br>
+            <button class="my-button" onclick="addToCart('audifonos', 4)"> Agregar al carrito </button>
+            </br>
+        </div>
+        <div class="box">
+            <img src="img/pines.jpg" alt="" srcset="">
+            <h2>Pines</h2>
+            <h3>$4.00</h3>
+            <p>Diferentes personajes y objetos personalizables.</p>
+            <br>
+            <button class="my-button" onclick="addToCart('Pines', 4)"> Agregar al carrito </button>
+            </br>
+        </div>
+        <div class="box">
+            <img src="img/Clips.jpg" alt="" srcset="">
+            <h2>Clips</h2>
+            <h3>$2.50</h3>
+            <p>Pequeños clips personalizables a gusto del cliente para decoración.</p>
+            <br>
+            <button class="my-button" onclick="addToCart('Clips', 2.5)"> Agregar al carrito </button>
+            </br>
+        </div>
+        <div class="box">
+            <img src="img/Portavasos.jpg" alt="" srcset="">
+            <h2>Portavasos</h2>
+            <h3>$3.00</h3>
+            <p>A gusto del cliente, portavasos personalizables y ajustables de tamaño.</p>
+            <br>
+            <button class="my-button" onclick="addToCart('Portavasos', 3)"> Agregar al carrito </button>
+            </br>
+        </div>
+
+        <footer>Pixy Bitsy 2023</footer>
+
+        <script>
+            var cart = {};
+
+            function addToCart(product, price) {
+                if (cart[product]) {
+                    cart[product].quantity++;
+                } else {
+                    cart[product] = {
+                        price: price,
+                        quantity: 1
+                    };
+                }
+
+                updateCartTable();
+            }
+
+            function updateCartTable() {
+                var cartTable = document.getElementById('cart');
+                cartTable.innerHTML = '<tr><th>Producto</th><th>Precio</th><th>Cantidad</th></tr>';
+                for (var product in cart) {
+                    var row = cartTable.insertRow(-1);
+                    var cell1 = row.insertCell(0);
+                    var cell2 = row.insertCell(1);
+                    var cell3 = row.insertCell(2);
+
+                    cell1.innerHTML = product;
+                    cell2.innerHTML = '$' + cart[product].price;
+                    cell3.innerHTML = cart[product].quantity;
+                }
+            }
+            function toggleCart() {
+                var cartTable = document.getElementById('cart-container');
+                cartTable.style.display = cartTable.style.display === 'none' ? 'table' : 'none';
+            }
+        </script>
+</body>
+
+</html>
